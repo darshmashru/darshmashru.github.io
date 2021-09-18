@@ -1,3 +1,13 @@
 body {
     background-color: rgb(0, 0, 0);
   }
+
+#dmlogo {
+    height: 6rem;
+    width: 8rem;
+}
+
+.menutext {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
