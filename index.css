@@ -5,7 +5,7 @@ body {
 
 #dmlogo {
   height: 6rem;
-  width: 8rem;
+  width: 7.5rem;
 }
 
 .nav-link {
@@ -18,7 +18,6 @@ body {
 .module {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  box-shadow: 0.4rem 0.4rem 1.2rem rgba(0, 0, 0, 0.25), -0.4rem -0.4rem 1.2rem rgba(255, 255, 255, 0.3);
   border-radius: 3rem;
 }
 
@@ -26,8 +25,19 @@ body {
   padding: 1rem 1rem 1rem 1rem;
 }
 
+.module > .row {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
 .grey-module {
   background: linear-gradient(145deg, #767676, #636363);
+  box-shadow: 0.4rem 0.4rem 1.2rem rgba(0, 0, 0, 0.25), -0.4rem -0.4rem 1.2rem rgba(255, 255, 255, 0.3);
+}
+
+.green-module {
+  background: linear-gradient(145deg, #389634, #2f7e2c);
+  box-shadow:  0.4rem 0.4rem 1.2rem rgba(34, 92, 40, 0.25),
+  -0.4rem -0.4rem 1.2rem rgba(70, 188, 66, 0.3);
 }
 
 @media (min-width: 768px) {
@@ -35,10 +45,19 @@ body {
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
   }
+
+  .right-image {
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
 }
 
 @media (max-width: 767px) {
   .left-image {
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+  }
+  .right-image {
     border-top-left-radius: 3rem;
     border-top-right-radius: 3rem;
   }
@@ -51,4 +70,12 @@ body {
 .image-col > img {
   height: 100%;
   width: 100%;
+}
+
+.navbar-dark .navbar-nav a.nav-link:hover {
+  color: #8200ec;
+}
+
+.navbar-dark .navbar-nav a.nav-link {
+  font-family: "Major Mono Display", monospace;
 }
