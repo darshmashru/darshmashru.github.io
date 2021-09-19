@@ -5,7 +5,7 @@ body {
 
 #dmlogo {
   height: 6rem;
-  width: 7.5rem;
+  width: 7rem;
 }
 
 .nav-link {
@@ -73,9 +73,11 @@ body {
 }
 
 .navbar-dark .navbar-nav a.nav-link:hover {
-  color: #8200ec;
+  text-decoration: underline;
+  color: rgb(144, 69, 243);
 }
 
 .navbar-dark .navbar-nav a.nav-link {
-  font-family: "Major Mono Display", monospace;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
