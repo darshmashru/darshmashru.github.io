@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test_Website</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-1">
-                <img src="images/dm_monogram.png" alt="DM Logo" id="dmlogo">
-            </div>
-            <div class="col"></div>
-            <div class="col-3">
-                <div class="row">
-                    <div class="col"><p class="menutext">me</p></div>
-                    <div class="col"><p class="menutext">sample 1</p></div>
-                    <div class="col"><p class="menutext">sample 2</p></div>
-                </div>
-            </div>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="images/dm_monogram.png" alt="DM Logo" id="dmlogo" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#">me</a>
+            <a class="nav-link" href="#">sample 1</a>
+            <a class="nav-link" href="#">sample 2</a>
+          </div>
         </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 text-center text-light align-content-center row">
+          <h1>Hi, I'm Darsh!</h1>
+          <h3>Lorem ipsum dolor sit amet consectetur</h3>
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis officiis in repellat maxime magnam optio
+            incidunt quo consequatur dolorem, quaerat sed! Corporis, assumenda quos. Excepturi facilis sunt pariatur
+            earum minus?
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="images/dface.png" alt="My Face" />
+        </div>
+      </div>
+      <div class="row">
+        <div></div>
+      </div>
     </div>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
